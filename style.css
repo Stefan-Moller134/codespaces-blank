@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Catsitter";
+  src: url(Chewy-Regular.ttf);
+}
+
+h1 {
+    font-family:"Catsitter";  
+    color: #F16F74;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+
+}
+
+#banner {
+    background-color: #ffb9dd;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color:  #ffb9dd;
+    overflow: auto;
+    border: #000;
+    border-width: 10;
+    font-family: "Catsitter"
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    width: 23.74%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #ffb9dd;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #380522;
+    color: white;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  
+body {
+    margin-top: 0;
+    background-image: url(maicatsitter/Mai-bg.jpg);
+    background-size: cover;
+}
+
+/* Contact page */
+
+#contactbd {
+  background-image: url(Contacts\ better.png);
+  background-size: cover;
+}
+
+#banner_contact {
+  background-color: #fdc6c6;
+}
+
+/* Style the navigation menu */
+.navbar_contact {
+  width: 100%;
+  background-color:  #fdc6c6;
+  overflow: auto;
+  border: #000;
+  border-width: 10;
+  font-family: "Catsitter"
+}
+
+/* Navigation links */
+.navbar_contact a {
+  float: left;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 17px;
+  width: 23.74%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar_contact a:hover {
+  background-color: #fdc6c6;
+}
+
+/* Style the current/active link */
+.navbar_contact a.active {
+  background-color: #380522;
+  color: white;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar_contact a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+/* Contact links */
+#links {
+  margin-top: 540px;
+  margin-left: 300px;
+
+}
+
+#links a {
+  padding: auto;
+  margin-left: 100px;
+  margin-right: 200px;
+  block-size: auto;
+}
+
+
+
+
