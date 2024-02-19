@@ -3,6 +3,10 @@
   src: url(Chewy-Regular.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
     font-family:"Catsitter";  
     color: #F16F74;
@@ -33,8 +37,8 @@ h1 {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 17px;
-    width: 23.74%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    width: 23.74%; 
+    text-align: center; 
   }
   
   /* Add a background color on mouse-over */
@@ -54,20 +58,19 @@ h1 {
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
+      text-align: left; 
     }
   }
   
 body {
-    margin-top: 0;
-    background-image: url(maicatsitter/Mai-bg.jpg);
-    background-size: cover;
+  background-image: url(maicatsitter/Mai-bg.jpg);
+  background-size: cover;
 }
 
 /* Contact page */
 
 #contactbd {
-  background-image: url(Contacts\ better.png);
+  background-image: url(Contacts\better.png);
   background-size: cover;
 }
 
@@ -75,8 +78,10 @@ body {
   background-color: #fdc6c6;
 }
 
-/* Style the navigation menu */
+
 .navbar_contact {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   background-color:  #fdc6c6;
   overflow: auto;
@@ -87,13 +92,14 @@ body {
 
 /* Navigation links */
 .navbar_contact a {
-  float: left;
+  /* flex: 1; */
+  width: 25%;
+  min-width: 75px;
   padding: 12px;
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 17px;
-  width: 23.74%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
+  text-align: center; 
 }
 
 /* Add a background color on mouse-over */
@@ -107,21 +113,9 @@ body {
   color: white;
 }
 
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-  .navbar_contact a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
-  }
-}
-
 /* Contact links */
 #links {
-  margin-top: 540px;
-  margin-left: 300px;
-
+  display: flex;
 }
 
 #links a {
@@ -129,6 +123,10 @@ body {
   margin-left: 100px;
   margin-right: 200px;
   block-size: auto;
+}
+
+main {
+  text-align: center;
 }
 
 
